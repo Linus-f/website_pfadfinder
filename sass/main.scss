@@ -1,0 +1,40 @@
+// custom variables
+$primary: #30734C;
+
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-menu {
+  text-align: center;
+  div {
+    cursor: pointer;
+    -webkit-transition: all 05s ease;
+    -moz-transition: all 05s ease;
+    -ms-transition: all 05s ease;
+    -o-transition: all 05s ease;
+    transition: all .5s ease;
+    margin: 5px;
+  }
+
+  div.dropdown {
+    margin: 5px;
+    padding: 0;
+  }
+}
+
+.portfolio-item {
+  .item {
+    float: left;
+    padding: 3px;
+  }
+}
+
+// import
+@import '../node_modules/bootstrap/scss/bootstrap';
+
